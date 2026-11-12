@@ -1,0 +1,20 @@
+{
+    "name": "guitar-chord",
+    "version": "1.0.8",
+    "description": "Guitar chord extension for BBC micro:bit V2. Trigger ranges narrowed to 0-1 and 1022-1023. All v1.0.7 sustain, fade, retrigger, center-dwell mute, and timbre behavior is retained.",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "main.ts",
+        "multitone.cpp"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
